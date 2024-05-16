@@ -1,0 +1,47 @@
+.header {
+    background-color: white;
+    text-align: center;
+}
+
+body {
+    background-color: lightgray;
+    margin: 0;
+}
+
+.body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.post {
+    background-color: white;
+    display: block;
+    width: 32%;
+}
+
+.post-header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 400px;
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
+}
